@@ -1,0 +1,126 @@
+body {
+  width: auto;
+}
+
+:fullscreen {
+  background-color: aliceblue;
+}
+
+.btn {
+  color: #FFFFFF;
+  background-color: #000000;
+  user-select: none;
+}
+
+.controls {
+  text-align: right;
+  width: 500px;
+}
+
+.controls a {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding: 6px;
+  text-decoration: none;
+}
+
+.controls a.active {
+  background-color: blue;
+}
+
+.description {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+}
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 3%;
+  grid-row-gap: 45px;
+  grid-template-columns: 22% 22% 22% 22%;
+  padding: 10px;
+}
+
+.grid-item {
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#grid {
+  height: 80vh;
+  overflow: hidden;
+  overflow-y: scroll
+}
+
+#table-body>tr td:nth-child(3) {
+  display: block;
+}
+
+table {
+  margin-top: 1rem;
+  width: 100%;
+  /* 140px * 5 column + 16px scrollbar width */
+  border-spacing: 0;
+}
+
+tbody,
+thead tr {
+  display: block;
+}
+
+tbody {
+  height: 500px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+tbody td,
+thead th {
+  width: 200px;
+  text-align: left;
+}
+
+thead th:last-child {
+  width: 750px;
+}
+
+tbody tr td:last-child {
+  width: 750px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  background-image: url(http://www.w3schools.com/css/searchicon.png);
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+.container {
+  padding: 10px
+}
+
+.row {
+  margin-top:.5rem;
+  display: flex;
+  align-items: center;
+  padding: .25rem;
+  border: 1px solid #000;
+}

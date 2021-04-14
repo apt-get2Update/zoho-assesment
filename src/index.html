@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  ${require('./layouts/_head.html')}
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div><input type="text" id="serch" placeholder="serch here"></div>
+      <div class="controls">
+        <a id="table-btn" class="btn">Table view</a>
+        <a id="grid-btn" class="btn active">Grid View</a>
+      </div>
+    </header>
+    <div id="root">
+      <div id="grid" class="grid-container"></div>
+      <table id="table">
+
+        <thead>
+          <tr>
+            <th>image</th>
+            <th><a>name</a></th>
+            <th><a>description</a></th>
+          </tr>
+        </thead>
+        <tbody id="table-body">
+        </tbody>
+      </table>
+    </div>
+  </div>
+  ${require('./layouts/_scripts.html')}
+</body>
+
+</html>
