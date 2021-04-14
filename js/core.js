@@ -31,7 +31,7 @@ class FetchApi {
 
 class Core {
   data = [];
-  isGridView = false;
+  isGridView = true;
   search = null;
   sortColumn = null;
   sortbyAsc = true;
