@@ -154,8 +154,8 @@ class Core {
     )
       return true;
     return (
-      data.name.search(this.search) >= 0 ||
-      data.description.search(this.search) >= 0
+      data.name.toLowerCase().search(this.search.toLowerCase()) >= 0 ||
+      data.description.toLowerCase().search(this.search.toLowerCase()) >= 0
     );
   }
 
