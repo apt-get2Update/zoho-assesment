@@ -25,7 +25,7 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-         find ./dist -type f -name "*.html" -print0 | xargs -0 sed -i  -e 's/"\//"\/fb-clone\//g'
+         find ./dist -type f -name "*.html" -print0 | xargs -0 sed -i  -e 's/"\//"\/zoho-assesment\//g'
       env:
         CI: true
     - name: Deploy
